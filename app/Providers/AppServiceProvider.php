@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton(Verifier::class, function ($app) {
+            return new Verifier(config('services.firebase.project_id'));
+        });
     }
 
     /**
