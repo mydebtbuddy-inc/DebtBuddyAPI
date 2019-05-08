@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1a9197f9266cade08edd8bcd497aec6",
+    "content-hash": "0f4939ffe9d4d83f277d6e4438b02702",
     "packages": [
         {
             "name": "binarycabin/laravel-uuid",
